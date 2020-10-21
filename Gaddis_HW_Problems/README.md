@@ -19,7 +19,8 @@ into two separate arrays, or ArrayLists. The user should be able to enter a boy'
 name, a girl's name, or both, and the application will display messages indicating
 whether the names were amongst the most popular.
 
-> The files Question.java and TriviaGame.java go together and are the code for
+<br/>
+The files Question.java and TriviaGame.java go together and are the code for
 the section Programming Challenges from Chapter 7, Question 19. The question is 
 as follows:
 In this programming challenge, you will create a simple trivia game for two players.
