@@ -1,0 +1,213 @@
+/* Engred Vanegas CSS document*/
+
+body {
+       background: rgb(0,4,40);
+       background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
+       color: #006B45;
+       font-family: Comic Sans MS;
+       font-size: 120%;
+}
+
+h1 {
+    color:#009150;
+    text-shadow: 6px 6px 12px #A0E6FF, 0 0 50px #66FF66, 0 0 12px #AAF0D1;
+    font-size: 250%;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid #000000;
+    font-family: Comic Sans Ms;
+    font-size: 100%;
+    color: #006B45;
+    background: #EAFEEA;
+    width: 100%;
+}
+
+td, th {
+    color: #006B45;
+    border: 1px solid #000000;
+    font-family: Comic Sans MS;
+    font-size: 100%;
+    text-align: center;
+    width: 10%;
+    height: 20%;
+}
+
+thead {
+    border: 3px solid #000000;
+    background: #D5FDD5;
+    height: 20%;
+    font-size: 120%;
+}
+
+tr:hover {background-color:#ACFBAC;}
+
+.intro {
+    color: #97C3B3;
+    font-size: 110%;
+    font-style: italic;
+    text-indent: 1.3em;
+}
+
+h2 {
+    color: #97C3B3;
+    font-size: 110%;
+}
+
+h3 {
+    color: #97C3B3;
+    text-align: center;
+    font-size: 130%;
+}
+ol {
+    color: #97C3B3;
+    background: none;
+    font-size: 110%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    color: #6AAF6A;
+    text-decoration: none;
+    font-size: 100%;
+}
+a:visited {
+    color: #FC74FD;
+    text-decoration: none;
+    font-size: 100%;
+}
+a:active {
+    color: #FF7F49;
+    text-decoration: none;
+    font-size: 100%;
+}
+a:hover  {
+    font-size: 120%;
+    background: #6DBC63;
+    font-family: Comic Sans MS;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.a {
+  font-size: 150%;
+  position: absolute;
+  bottom: 50%;
+  right: 65%;
+} 
+
+div.b {
+  list-style-type: none;
+  position: absolute;
+  bottom: 0;
+  right: 45%;  
+  width: 10%;
+  height: 5%;
+  font-size: 120%;
+} 
+
+div.c {
+  position: absolute;
+  bottom: 0;
+  left: 0%;  
+  width: 10%;
+  height: 8%;
+  font-size: 150%;
+} 
+
+div.d {
+    right: 42%;
+    width: 10%;
+    position: absolute;
+    font-size: 120%;
+} 
+
+footer {
+    font-size: 100%;
+}
+
+hr.I {
+    border: 3.5px solid #D5FDD5;
+    border-radius: 5px;
+}
+
+hr.II {
+    border: 3px dotted #A2FBA2;
+}
+
+hr.III {
+    border: 3px dotted #B6FCB6;
+    width: 50%;
+}
+
+hr.IV {
+    border: 3px dotted #CBFDCB;
+    width: 25%;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #B6FCB6;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+img { 
+    max-width: 100%; 
+    height: auto;
+    display: block;
+}
+
+html { 
+    font-size:100%; 
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 601px) {
+
+}
+
+@media (min-width: 360px) {
+  body {
+    font-size: 1.0em;
+  }
+}
+
+@media (min-width: 500px) {
+  .Table {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .Table {
+    margin-left: 5%;
+  }
+
+  .Table .img {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+@media (min-width: 700px) {
+  .Table {
+    width: 700px;
+  }
+}
+
+@media (min-width: 575px) {
+  About Me {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

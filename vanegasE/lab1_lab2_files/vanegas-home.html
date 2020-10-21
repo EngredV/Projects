@@ -1,0 +1,156 @@
+<!--Engred's HTML page.-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" type="text/css" href="vanegas-style.css">
+<title>LAB #1 CREATING A SIMPLE HTML PAGE</title>
+
+<style>
+ul {
+  list-style: square outside;
+  text-align:justify;
+  color: #FF0099;  
+}
+</style>
+</head>
+
+<body>
+<h1>Welcome to Engred's home page!</h1>
+<h2>Paragraph Tags</h2>
+1. This is how a <br /> break tag behaves.<br/>
+2. This is how a <p> paragraph tag </p> behaves.<br/>
+3. This is how a <div class="caution"> division tag </div> behaves.<br/>
+4. This is how a <span class="caution"> span tag </span> behaves.<br/>
+
+<h2>Character Tags</h2>
+Emphasis: Let me <em>emphasize</em> how easy this is.<br/>
+Italics: Anyone can add<i> italics</i>. <br/>
+Bold: Be <b>bold</b> and learn HTML.<br/>
+preformatted Text: <br/>
+<pre style="text-align:justify; font-size:15px;">
+             AN HTML HAIKU
+             This is so easy
+      Who new that structured markup
+             Could be so simple
+</pre><br/>
+
+<h3>Here is a list of five of my favorite movies:</h3>
+<div id="movies">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREEVVu_s26yzEO9HQl45g5OVH7cvSjX45_FA&usqp=CAU" alt="The Sixth      Sense movie poster" width="200"/>
+  <ul style="text-align:justify; font-size: 16px;">      
+    <li><a href="https://www.amazon.com/Sixth-Sense-Bruce-Willis/dp/B004NAB9EE" target="_blank">The Sixth Sense</a></li>
+  </ul>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/91jpnwQdcvL._SL1500_.jpg" alt="Insidious movie poster" width="200"/>
+  <ul style="text-align:justify; font-size: 16px;"> 
+    <li><a href="https://www.amazon.com/Insidious-Chapter-Last-Key-Set/dp/B0788XRYJZ" target="_blank">Insidious Chapter's 1-4</a></li>
+  </ul>
+  <img src="https://cdn.shopify.com/s/files/1/0693/4223/products/Childs_Play_cover_web_740x.jpg?v=1571154004" alt="Child's Play movie poster" width="200"/>
+  <ul>
+    <li><a href="https://childsplay.fandom.com/wiki/Chucky" target="_blank">Child's Play</a></li>
+  </ul>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/51rEXKCgVOL._AC_.jpg" alt="I Am Legend movie poster" width="200"/>
+  <ul>
+    <li><a href="https://www.amazon.com/I-Am-Legend-Will-Smith/dp/B0014CDKVY" target="_blank">I Am Legend</a></li>
+  </ul>
+  <img src="https://i2.wp.com/keithlovesmovies.com/wp-content/uploads/2017/06/the-conjuring.jpg?fit=3988%2C3701&ssl=1" alt="The Conjuring movie poster" width="200"/>
+  <ul>
+    <li><a href="https://www.microsoft.com/en-us/p/the-conjuring-2-film-collection/8d6kgx0rv3jz?activetab=pivot%3aoverviewtab" target="_blank">The Conjuring 1 & 2</a></li>
+  </ul>
+</div>
+
+<h4 style="font-size: 18px;">Table</h4>
+<table>
+  <tr>
+    <th scope="col"></th>
+    <th scope="col">column 1</th>
+    <th scope="col">column 2</th>
+    <th scope="col">column 3</th>
+  </tr>
+  <tr>
+    <th scope="row">row 1</th>
+    <td>A</td><td>B</td><td>C</td>
+  </tr>
+  <tr>
+    <th scope="row">row 2</th>
+    <td>D</td><td>E</td><td>F</td>
+  </tr>
+  <tr>
+    <th scope="row">row 3</th>
+    <td>G</td><td>H</td><td>I</td>
+  </tr>
+</table>
+
+<h5 style="font-size: 18px;">Modified Table</h5>
+<p style="text-align:justify; font-size:18px;">Modified table to have two columns and six rows</p>
+<table>
+  <tr>
+    <th></th>
+    <th scope="col">column 1</th>
+    <th scope="col">column 2</th>
+  </tr>
+  <tr>
+    <th scope="row">row 1</th>
+    <td>A</td><td>B</td>
+  </tr>
+  <tr>
+    <th scope="row">row 2</th>
+    <td>C</td><td>D</td>
+  </tr>
+  <tr>
+    <th scope="row">row 3</th>
+    <td>E</td><td>F</td>
+  </tr>
+  <tr>
+    <th scope="row">row 4</th>
+    <td>G</td><td>H</td>
+  </tr>
+  <tr>
+    <th scope="row">row 5</th>
+    <td>I</td><td>J</td>
+  </tr>
+  <tr>
+    <th scope="row">row 6</th>
+    <td>K</td><td>L</td>
+  </tr>
+</table>
+
+<h6 style="font-size: 20px; text-align:center;">Movies Table</h6>
+<table>
+  <tr>
+    <th scope="col" style="text-align: center;">Title</th>
+    <th scope="col" style="text-align: center;">Synopsis</th>
+  </tr>
+  <tr>
+    <th scope="row">The Sixth Sense</th>
+    <td>A child psychologist meets a frightened 8yr old boy who opens a whole new world for him while trying to help him and in the process his truth is revealed.</td>
+  </tr>
+  <tr>
+    <th scope="row">Insidious Chapter's 1-4</th>
+    <td>After moving, the lamberts discover another dimension that contain dark spirits. The worst part? His son getting trapped and needing rescuing.</td>
+  </tr>
+  <tr>
+    <th scope="row">Child's Play</th>
+    <td>Karen Barclay buys her 13yr old son, Andy, a new Buddi doll as a birthday gift. When Andy activates the Buddi doll, he names himself "Chucky" but over time, Andy realizes that Chucky is no ordinary doll and discovers that it is a possessed killer doll.</td>
+  </tr>
+  <tr>
+    <th scope="row">I Am Legend</th>
+    <td>Robert Neville, a scientist that is the last human survivor after a virus broke out. He finds himself navigating the city of New York with his dog trying to survive.</td>
+  </tr>
+  <tr>
+    <th scope="row">The Conjuring 1 & 2</th>
+    <td>Based on the real cases of renowned paranormal investigators Ed and Lorraine Warren. They help families that are terrorized by dark presences and demons.</td>
+  </tr>
+</table>
+
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+</body>
+</html>

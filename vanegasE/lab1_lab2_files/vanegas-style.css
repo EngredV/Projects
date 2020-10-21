@@ -1,0 +1,63 @@
+/* Engred Vanegas CSS document*/
+
+body {
+       background: rgb(86,128,233);
+       background: radial-gradient(circle, rgba(86,128,233,1) 0%, rgba(132,206,235,1) 35%, rgba(238,174,202,1) 100%);
+       color: white;
+       font-family: monospace;
+       font-size: 120%;
+}
+
+.caution {
+        font-size:200%;
+        color: Red;
+}
+
+h1 {
+    color:#006FFF;
+    text-shadow: 6px 6px 12px #FF5A93, 0 0 50px #F7FF00, 0 0 12px #FFFFFF;
+    font-size: 350%;
+    text-align: center;
+}
+
+table, td, th {
+    color: #01786F;
+    border: 2px solid #BFEFFF;
+}
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+tr:hover {background-color:#9AA0A6;}
+
+ul {
+    background: none;
+    list-style: square outside;    
+    color: #8A0303;
+}
+li {
+    font-size: 120%;
+}
+a:link {
+    color: #C9FF89;
+}
+a:visited {
+    color: #E4FFC4;
+}
+a:active {
+    color: #FF4040;
+}
+a:hover  {
+    font-size: 150%;
+    background: #CCCCFF;
+    font-family: monospace;
+    color: #D069FF;
+    text-decoration: none;
+}
+
+
+    
