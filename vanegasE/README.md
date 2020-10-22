@@ -13,6 +13,12 @@ Attached you can find the following files:
 The main goal of this project was to make a webpage that implements everything
 learned in class and that also contains the labs done so far.
 
+## INSTRUCTIONS
+To view the website, you can download the zip file and click on index.html and 
+the website should open in your web browser. This is the only file you need to
+open since the rest of the files are information contained within the website 
+itself.
+
 ## Status
 Project is: Finished
 
